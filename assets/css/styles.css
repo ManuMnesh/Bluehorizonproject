@@ -260,7 +260,7 @@ img {
 /*========== HOME ==========*/
 .home__container {
   height: calc(100vh - var(--header-height));
-  /* align-content: center; */
+  align-content: center;
   padding: auto;
   /* margin-top: 100px;
   margin-bottom: 50px; */

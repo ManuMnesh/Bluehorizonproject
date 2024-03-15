@@ -261,8 +261,7 @@ img {
 .home__container {
   height: calc(100vh - var(--header-height));
   align-content: center;
-  padding-top: 50px;
-  margin-top: 50px;
+  padding-top: 100px;
   margin-bottom: 50px;
 }
 
@@ -366,29 +365,6 @@ img {
   display: flex;
   padding: 0.625rem 0.813rem;
   border-radius: 0.5rem 0 0.5rem 0;
-}
-
-/*========== APP ==========*/
-.app__data {
-  text-align: center;
-}
-
-.app__description {
-  margin-bottom: var(--mb-5);
-}
-
-.app__stores {
-  margin-bottom: var(--mb-4);
-}
-
-.app__store {
-  width: 120px;
-  margin: 0 var(--mb-1);
-}
-
-.app__img {
-  width: 230px;
-  justify-self: center;
 }
 
 /*========== CONTACT ==========*/
@@ -541,8 +517,8 @@ img {
 }
 
 /* For tall screens on mobiles y desktop*/
-/* @media screen and (min-height: 721px) {
+@media screen and (min-height: 721px) {
   .home__container {
     height: 640px;
   }
-} */
+}

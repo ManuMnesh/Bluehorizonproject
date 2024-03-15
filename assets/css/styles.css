@@ -314,34 +314,10 @@ img {
   justify-self: center;
   order: -1;
 }
-
-/*========== SERVICES ==========*/
-.services__container {
-  row-gap: 2.5rem;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+.mission__container {
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
-
-.services__content {
-  text-align: center;
-}
-
-.services__img {
-  width: 64px;
-  height: 64px;
-  fill: var(--first-color);
-  margin-bottom: var(--mb-2);
-}
-
-.services__title {
-  font-size: var(--h3-font-size);
-  color: var(--title-color);
-  margin-bottom: var(--mb-1);
-}
-
-.services__description {
-  padding: 0 1.5rem;
-}
-
 /*========== team ==========*/
 .team__container {
   grid-template-columns: repeat(2, 1fr);
@@ -565,8 +541,8 @@ img {
 }
 
 /* For tall screens on mobiles y desktop*/
-/* @media screen and (min-height: 721px) {
+@media screen and (min-height: 721px) {
   .home__container {
     height: 640px;
   }
-} */
+}

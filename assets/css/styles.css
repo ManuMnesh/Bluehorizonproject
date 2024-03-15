@@ -261,7 +261,7 @@ img {
 .home__container {
   height: calc(100vh - var(--header-height));
   align-content: center;
-  padding: auto;
+  padding-top: 50px;
   margin-top: 50px;
   margin-bottom: 50px;
 }

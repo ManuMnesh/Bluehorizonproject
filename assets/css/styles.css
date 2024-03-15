@@ -216,7 +216,7 @@ img {
   top: var(--header-height);
 }
 
-/* Active menu */
+/* Active team */
 .active-link {
   color: var(--first-color);
 }
@@ -262,7 +262,7 @@ img {
   height: calc(100vh - var(--header-height));
   align-content: center;
   padding: auto;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 
@@ -299,16 +299,16 @@ img {
   background-color: var(--first-color-alt);
 }
 
-/*========== ABOUT ==========*/
-.about__data {
+/*========== mission ==========*/
+.mission__data {
   text-align: center;
 }
 
-.about__description {
+.mission__description {
   margin-bottom: var(--mb-3);
 }
 
-.about__img {
+.mission__img {
   width: 500px;
   border-radius: 0.5rem;
   justify-self: center;
@@ -342,13 +342,13 @@ img {
   padding: 0 1.5rem;
 }
 
-/*========== MENU ==========*/
-.menu__container {
+/*========== team ==========*/
+.team__container {
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
 }
 
-.menu__content {
+.team__content {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -358,32 +358,32 @@ img {
   padding: 0.75rem;
 }
 
-.menu__img {
+.team__img {
   width: 100px;
   align-self: center;
   margin-bottom: var(--mb-2);
 }
 
-.menu__name,
-.menu__preci {
+.team__name,
+.team__preci {
   font-weight: var(--font-semi-bold);
   color: var(--title-color);
 }
 
-.menu__name {
+.team__name {
   font-size: var(--normal-font-size);
 }
 
-.menu__detail,
-.menu__preci {
+.team__detail,
+.team__preci {
   font-size: var(--small-font-size);
 }
 
-.menu__detail {
+.team__detail {
   margin-bottom: var(--mb-1);
 }
 
-.menu__button {
+.team__button {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -474,14 +474,14 @@ img {
 /*========== MEDIA QUERIES ==========*/
 @media screen and (min-width: 576px) {
   .home__container,
-  .about__container,
+  .mission__container,
   .app__container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
   }
 
-  .about__data,
-  .about__initial,
+  .mission__data,
+  .mission__initial,
   .app__data,
   .app__initial,
   .contact__container,
@@ -532,18 +532,18 @@ img {
   }
 
   .services__container,
-  .menu__container {
+  .team__container {
     margin-top: var(--mb-6);
   }
 
-  .menu__container {
+  .team__container {
     grid-template-columns: repeat(3, 210px);
     column-gap: 4rem;
   }
-  .menu__content {
+  .team__content {
     padding: 1.5rem;
   }
-  .menu__img {
+  .team__img {
     width: 130px;
   }
 
@@ -558,7 +558,7 @@ img {
     margin-right: auto;
   }
 
-  .about__container,
+  .mission__container,
   .app__container {
     column-gap: 7rem;
   }

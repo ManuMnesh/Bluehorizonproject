@@ -262,7 +262,7 @@ img {
   height: calc(100vh - var(--header-height));
   align-content: center;
   padding: auto;
-  margin-top: 50px;
+  margin-top: 80px;
   margin-bottom: 50px;
 }
 

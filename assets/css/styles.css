@@ -263,7 +263,7 @@ img {
   align-content: center;
   padding: auto;
   margin-top: 50px;
-  margin-bottom: auto;
+  margin-bottom: 50px;
 }
 
 .home__title {
@@ -565,8 +565,8 @@ img {
 }
 
 /* For tall screens on mobiles y desktop*/
-@media screen and (min-height: 721px) {
+/* @media screen and (min-height: 721px) {
   .home__container {
     height: 640px;
   }
-}
+} */

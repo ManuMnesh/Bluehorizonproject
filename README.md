@@ -1,1 +1,1 @@
-bluehorizonproject.live
+https://bluehorizonproject.live
